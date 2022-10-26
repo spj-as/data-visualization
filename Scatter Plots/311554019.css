@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(132, 184, 187);
+  min-height: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+svg {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 20px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  /* padding: .2rem; */
+  /* background: #313639;
+  color: #f9f9f9;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 2em; */
+}
+
+#legend {
+  opacity: 0.2;
+  fill: #4c4848;
+}
+.axis line,.axis path {
+  stroke: rgb(75, 75, 75);
+  opacity: 1;
+}
+.textbox {
+  fill: black;
+  opacity: 0.8;
+  font-size: 1em;
+}
+.axis text {
+  fill: black;
+  opacity: 0.8;
+  font-size: 1.4em;
+}
+.x_variable {
+  font-size: 1em;
+  color: #000000;
+  font-family: "Comic Sans MS";
+}
+.y_variable {
+  font-size: 1em;
+  color: #000000;
+  font-family: "Comic Sans MS";
+}
+
+h1 {
+  font-family: cursive;
+  color: white; 
+}
+h2 {
+  font-family:  sans-serif;
+  color: rgb(32, 32, 32); 
+  font-size: 1.3em;
+}
+  
+circle {
+  opacity: 0.8;
+  stroke-width: 2;
+  stroke: #000000;
+}
+
+text {
+  font-size: 1.8em;
+  font-family: "Comic Sans MS";
+  fill: #313131; 
+}
+
+.tick {
+  display: inline-block;
+  margin-left: -3px; 
+  position: relative;
+  text-align: right;
+  width: 200px;
+  font-size: 1.5em;
+  fill: #767676;
+}
+
+.tick line {
+  stroke: #967f7f;
+  border-style:solid;
+  border-width:7;
+}
+

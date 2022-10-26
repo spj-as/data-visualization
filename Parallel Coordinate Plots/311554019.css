@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(82, 82, 82);
+  min-height: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+svg {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 20px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+
+}
+
+#legend {
+  opacity: 0.2;
+  fill: #4c4848;
+}
+.axis line,.axis path {
+  stroke: rgb(75, 75, 75);
+  opacity: 1;
+}
+.textbox {
+  fill: black;
+  opacity: 0.8;
+  font-size: 1em;
+}
+.axis text {
+  fill: black;
+  opacity: 0.8;
+  font-size: 1.4em;
+}
+
+h1 {
+  font-family: cursive;
+  color: white; 
+}
+h2 {
+  font-family:  sans-serif;
+  color: rgb(167, 167, 167); 
+  font-size: 1.5em;
+}
+
+
+text {
+  font-size: 1.2em;
+  font-family: "Comic Sans MS";
+  fill: #313131; 
+}
+
+.tick {
+  display: inline-block;
+  margin-left: -3px; 
+  position: relative;
+  text-align: right;
+  width: 200px;
+  font-size: 1.0em;
+  fill: #767676;
+}
+
+.background path {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+}
+
+#legend {
+  opacity: 0.2;
+  fill: #4c4848;
+}
